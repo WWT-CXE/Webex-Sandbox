@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Webex Admin Training</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 2rem;
+      background: #f5f7fa;
+      color: #2c3e50;
+    }
+    .container {
+      max-width: 600px;
+      margin: auto;
+      background: #fff;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+    }
+    h1 {
+      text-align: center;
+      color: #0070d2;
+    }
+    p {
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+    button {
+      display: block;
+      width: 100%;
+      padding: 1rem;
+      margin: 1rem 0;
+      font-size: 1.1rem;
+      background: #0070d2;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #005fa3;
+    }
+    .login-info {
+      margin-top: 1rem;
+      background: #f0f4f8;
+      padding: 1rem;
+      border-radius: 8px;
+    }
+    summary {
+      cursor: pointer;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+    code {
+      background: #eaeaea;
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Webex Admin Training Portal</h1>
+    <p>Welcome to the sandbox training environment. Click the button below to open <strong>admin.webex.com</strong> and start playing around with Webex ControlHub and reporting features. This is a LIVE environment without Customer or WWT data so feel free to share this site with customers.</p>
+<p>Create a Gmail account so we can use that email address to add you in as a new User. You will not be able to use your WWT Email as the WWT organization already is using that.
+    <button onclick="window.open('https://admin.webex.com', '_blank')">Go to Admin Portal</button>
+
+    <details class="login-info">
+      <summary>Show Sandbox Login Info</summary>
+      <p><strong>Username:</strong> <code>admin@wwt-cx.wbx.ai</code></p>
+      <p><strong>Password:</strong> <code>$#Tmbwnj9Q</code></p>
+      <p>Please copy and paste these credentials into the login page.</p>
+    </details>
+  </div>
+</body>
+</html>
